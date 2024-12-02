@@ -13,11 +13,11 @@
 
 # plt.show()
 
-import plotly.express as px
+# import plotly.express as px
 
-# Sample data
-data = {'Category': ['A', 'B', 'C', 'D'], 'Value': [10, 20, 15, 30]}
-fig = px.bar(data, x='Category', y='Value', text='Value')
+# # Sample data
+# data = {'Category': ['A', 'B', 'C', 'D'], 'Value': [10, 20, 15, 30]}
+# fig = px.bar(data, x='Category', y='Value', text='Value')
 
-fig.update_traces(texttemplate='%{text}', textposition='outside')
-fig.show()
+# fig.update_traces(texttemplate='%{text}', textposition='outside')
+# fig.show()
